@@ -558,6 +558,63 @@ section .title::after {
     background: var(--main-color) !important;
 }
 
+.projects .projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projects .card {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.projects .card:hover {
+    transform: translateY(-8px);
+}
+
+.projects .box {
+    padding: 20px;
+    text-align: center;
+}
+
+.projects .box img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.projects .box .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.projects .box p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.projects .box a {
+    display: inline-block;
+    padding: 8px 15px;
+    background: rgb(72, 197, 226);
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.projects .box a:hover {
+    background: #333;
+}
+
+
 /* contact section styling */
 .contact .title::after {
     content: "get in touch";
